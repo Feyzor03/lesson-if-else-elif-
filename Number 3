@@ -1,0 +1,8 @@
+moth = int(input("Введите порядковый номер месяца: "))
+
+if moth == 2:
+    print(28)
+elif moth % 2 == 0:
+    print(30)
+else:
+    print(31)
