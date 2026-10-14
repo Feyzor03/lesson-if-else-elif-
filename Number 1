@@ -1,0 +1,6 @@
+year = int(input("Впишите год у которого на конце два нуля: "))
+
+if year % 100 == 0:
+    print("YES")
+else:
+    print("NO")
